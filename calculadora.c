@@ -26,13 +26,19 @@ void divide()
 }
 
 void multiplica()
-{ 
-    //todo
+{
+//todo
+    int result = 0;
+    result = op1 * op2;
+    printf("Qual o primeiro numero:\n");
+    scanf("%d", &op1);
+    printf("Qual o segundo numero?:\n");
+    scanf("%d", &op2);
+    printf("O resultado da multiplica e:%d\n", result);
     system ("pause");
     system("cls");
     menu();
 }
-
 void menu()
 { 
     int escolha;
