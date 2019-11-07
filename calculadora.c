@@ -1,9 +1,16 @@
 #include <stdio.h> 
 #include <stdlib.h>
 
-void soma()
-{ 
+void soma(int op1, int op2)
+{
     //todo
+    int result = 0;
+    result = op1 + op2;
+    printf("Qual o primeiro numero:\n");
+    scanf("%d", &op1);
+    printf("Qual o segundo numero?:\n");
+    scanf("%d", &op2);
+    printf("O resultado da soma e:%d\n", result);
     system ("pause"); 
     system("cls"); 
     menu(); 
@@ -27,14 +34,7 @@ void divide()
 
 void multiplica()
 {
-//todo
-    int result = 0;
-    result = op1 * op2;
-    printf("Qual o primeiro numero:\n");
-    scanf("%d", &op1);
-    printf("Qual o segundo numero?:\n");
-    scanf("%d", &op2);
-    printf("O resultado da multiplica e:%d\n", result);
+    //todo
     system ("pause");
     system("cls");
     menu();
