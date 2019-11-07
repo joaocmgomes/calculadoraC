@@ -1,40 +1,47 @@
-#include <stdio.h> 
+#include <stdio.h>
 #include <stdlib.h>
 
-void soma()
-{ 
+void soma(int op1, int op2){
     //todo
-    system ("pause"); 
-    system("cls"); 
-    menu(); 
+    int result = 0;
+    result = op1 + op2;
+    printf("Qual o primeiro numero:\n");
+    scanf("%d", &op1);
+    printf("Qual o segundo numero?:\n");
+    scanf("%d", &op2);
+    printf("O resultado da soma e:%d\n", result);
+    system ("pause");
+    system("cls");
+    menu();
 }
 
 void subtrai()
 {
     //todo
     system ("pause");
-    system("cls"); 
+    system("cls");
     menu();
 }
 
 void divide()
-{ 
+{
     //todo
     system ("pause");
     system("cls");
     menu();
 }
 
-void multiplica()
-{ 
-    //todo
-    system ("pause");
-    system("cls");
-    menu();
+void multiplica(int op1, int op2);
+{
+//todo
+
+system ("pause");
+system("cls");
+menu();
 }
 
 void menu()
-{ 
+{
     int escolha;
 
     printf("\t\tBem vindo a calculadora em C\n\n");
@@ -50,17 +57,17 @@ void menu()
 
     switch (escolha)
     {
-        case 1: 
-            soma(); 
-        break; 
+        case 1:
+            soma();
+            break;
 
         case 2:
             subtrai();
-        break;
+            break;
 
         case 3:
             divide();
-        break;
+            break;
 
         case 4:
             multiplica();
@@ -69,19 +76,19 @@ void menu()
         case 5:
             system("exit");
             printf("\nFim...\n\n");
-        break;
+            break;
 
-        default: 
+        default:
             printf("\nComando invalido, tente novamente!\n\n");
             system ("pause");
             system ("cls");
-            menu(); 
+            menu();
             break;
     }
 }
 
 
-int main() 
+int main()
 {
     menu();
     system("pause");
