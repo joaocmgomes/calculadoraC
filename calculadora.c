@@ -7,6 +7,7 @@ void soma()
     system ("pause");
     system("cls");
     menu();
+
 }
 
 void subtrai()
@@ -28,16 +29,16 @@ void divide()
 void multiplica(int op1, int op2)
 {
 //todo
-    int result = 0;
-    result = op1 * op2;
-    printf("Qual o primeiro numero:\n");
-    scanf("%d", &op1);
-    printf("Qual o segundo numero?:\n");
-    scanf("%d", &op2);
-    printf("O resultado da multiplica e:%d\n", result);
-    system ("pause");
-    system("cls");
-    menu();
+int result = 0;
+result = op1 * op2;
+printf("Qual o primeiro numero:\n");
+scanf("%d", &op1);
+printf("Qual o segundo numero?:\n");
+scanf("%d", &op2);
+printf("O resultado da multiplica e:%d\n", result);
+system ("pause");
+system("cls");
+menu();
 }
 void menu()
 { 
