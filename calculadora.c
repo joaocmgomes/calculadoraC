@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 void soma()
-{ 
+{
     //todo
-    system ("pause"); 
-    system("cls"); 
-    menu(); 
+    system ("pause");
+    system("cls");
+    menu();
 }
 
 void subtrai()
