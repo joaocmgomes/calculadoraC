@@ -25,7 +25,7 @@ void divide()
     menu();
 }
 
-void multiplica()
+void multiplica(int op1, int op2)
 {
 //todo
     int result = 0;
